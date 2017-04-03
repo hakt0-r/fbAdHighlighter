@@ -122,6 +122,7 @@ function removeAds(idStart) {
       container.prepend(myPrepend);
       container.find(".CITP_closeButton").on("click", function () {
         container.find(".CITP_adBlockerCover").css("visibility", "hidden");
+        container.hide();
       });
     });
   }
